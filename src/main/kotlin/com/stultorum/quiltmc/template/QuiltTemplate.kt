@@ -5,7 +5,7 @@ import org.quiltmc.qsl.base.api.entrypoint.ModInitializer
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
-private class QuiltTemplate: ModInitializer {
+internal class QuiltTemplate: ModInitializer {
     internal var Logger: Logger = LoggerFactory.getLogger("???")
         private set
 
