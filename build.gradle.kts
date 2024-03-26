@@ -80,8 +80,9 @@ tasks {
 
 	processResources {
 		filteringCharset = "UTF-8"
+        duplicatesStrategy = DuplicatesStrategy.INCLUDE
 
-		filesMatching("quilt.mod.json5") {
+		filesMatching("quilt.mod.json") {
 			expand(
 				mapOf(
 					"group" to project.group,
